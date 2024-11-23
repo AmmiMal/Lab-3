@@ -4,7 +4,6 @@ from keygeneration import key_generation
 from pygame import mixer
 
 
-
 def click():
     number = num_enter.get()
     if not number.isdigit():
@@ -69,8 +68,3 @@ mixer.music.set_volume(0.01)
 mixer.music.play(77)
 
 window.mainloop()
-
-
-
-
-
